@@ -1,0 +1,184 @@
+//===========================================================
+CMT00 // Upland Tundra Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// vegetations 
+0.00           // fvcomb[5]: fraction of vegetation combusted for 5 severities
+0.15
+0.25
+0.30
+0.35
+0.00           // fvdead[5]: fraction of vegetation killed for 5 severities
+0.50
+0.60
+0.64
+0.64
+// ground:     // foslburn[5]:  fraction of OS layer burned for each of 5 fire severities
+0.00                                                                                                                        
+0.48
+0.54 
+0.69 
+0.80 
+// other:
+0.50           // vsmburn: volume soil moisture to define wet soil for prevent organic layer burning
+0.10           // r_retain_c: ratio of burning residue C (retained into soil) 
+0.10           // r_retain_n: ratio of burning residue N (retained into soil)
+//===========================================================
+CMT01 // Lowland Non-forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// vegetations 
+0.00           // fvcomb[5]: fraction of vegetation combusted for 5 severities
+0.15
+0.25
+0.30
+0.35
+0.00           // fvdead[5]: fraction of vegetation killed for 5 severities
+0.50
+0.60
+0.64
+0.64
+// ground:     // foslburn[5]:  fraction of OS layer burned for each of 5 fire severities
+0.00                                                                                                                        
+0.48
+0.54 
+0.69 
+0.80 
+// other:
+0.50           // vsmburn: volume soil moisture to define wet soil for prevent organic layer burning
+0.10           // r_retain_c: ratio of burning residue C (retained into soil) 
+0.10           // r_retain_n: ratio of burning residue N (retained into soil)
+//===========================================================
+CMT10 // Upland Deciduous Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// vegetations 
+0.00           // fvcomb[5]: fraction of vegetation combusted for 5 severities
+0.15
+0.25
+0.30
+0.35
+0.00           // fvdead[5]: fraction of vegetation killed for 5 severities
+0.50
+0.60
+0.64
+0.64
+// ground:     // foslburn[5]:  fraction of OS layer burned for each of 5 fire severities
+0.00                                                                                                                        
+0.48
+0.54 
+0.69 
+0.80 
+// other:
+0.50           // vsmburn: volume soil moisture to define wet soil for prevent organic layer burning
+0.10           // r_retain_c: ratio of burning residue C (retained into soil) 
+0.10           // r_retain_n: ratio of burning residue N (retained into soil)
+//===========================================================
+CMT11 // Flood-plain (lowland) Deciduous Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// vegetations 
+0.00           // fvcomb[5]: fraction of vegetation combusted for 5 severities
+0.15
+0.25
+0.30
+0.35
+0.00           // fvdead[5]: fraction of vegetation killed for 5 severities
+0.50
+0.60
+0.64
+0.64
+// ground:     // foslburn[5]:  fraction of OS layer burned for each of 5 fire severities
+0.00                                                                                                                        
+0.48
+0.54 
+0.69 
+0.80 
+// other:
+0.50           // vsmburn: volume soil moisture to define wet soil for prevent organic layer burning
+0.10           // r_retain_c: ratio of burning residue C (retained into soil) 
+0.10           // r_retain_n: ratio of burning residue N (retained into soil)
+//===========================================================
+CMT20 // Upland White Spruce Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// vegetations 
+0.00           // fvcomb[5]: fraction of vegetation combusted for 5 severities
+0.15
+0.25
+0.30
+0.35
+0.00           // fvdead[5]: fraction of vegetation killed for 5 severities
+0.50
+0.60
+0.64
+0.64
+// ground:     // foslburn[5]:  fraction of OS layer burned for each of 5 fire severities
+0.00                                                                                                                        
+0.48
+0.54 
+0.69 
+0.80 
+// other:
+0.50           // vsmburn: volume soil moisture to define wet soil for prevent organic layer burning
+0.10           // r_retain_c: ratio of burning residue C (retained into soil) 
+0.10           // r_retain_n: ratio of burning residue N (retained into soil)
+//===========================================================
+CMT21 // Lowland White Spruce Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// vegetations 
+0.00           // fvcomb[5]: fraction of vegetation combusted for 5 severities
+0.15
+0.25
+0.30
+0.35
+0.00           // fvdead[5]: fraction of vegetation killed for 5 severities
+0.50
+0.60
+0.64
+0.64
+// ground:     // foslburn[5]:  fraction of OS layer burned for each of 5 fire severities
+0.00                                                                                                                        
+0.48
+0.54 
+0.69 
+0.80 
+// other:
+0.50           // vsmburn: volume soil moisture to define wet soil for prevent organic layer burning
+0.10           // r_retain_c: ratio of burning residue C (retained into soil) 
+0.10           // r_retain_n: ratio of burning residue N (retained into soil)
+//===========================================================
+CMT30 // Upland Black Spruce Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// vegetations 
+0.00           // fvcomb[5]: fraction of vegetation combusted for 5 severities
+0.15
+0.25
+0.30
+0.35
+0.00           // fvdead[5]: fraction of vegetation killed for 5 severities
+0.50
+0.60
+0.64
+0.64
+// ground:     // foslburn[5]:  fraction of OS layer burned for each of 5 fire severities
+0.00                                                                                                                        
+0.48
+0.54 
+0.69 
+0.80 
+// other:
+0.50           // vsmburn: volume soil moisture to define wet soil for prevent organic layer burning
+0.10           // r_retain_c: ratio of burning residue C (retained into soil) 
+0.10           // r_retain_n: ratio of burning residue N (retained into soil)
+//===========================================================
+CMT31 // Lowland Black Spruce Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// vegetations 
+0.00           // fvcomb[5]: fraction of vegetation combusted for 5 severities
+0.15
+0.25
+0.30
+0.35
+0.00           // fvdead[5]: fraction of vegetation killed for 5 severities
+0.50
+0.60
+0.64
+0.64
+// ground:     // foslburn[5]:  fraction of OS layer burned for each of 5 fire severities
+0.00                                                                                                                        
+0.48
+0.54 
+0.69 
+0.80 
+// other:
+0.50           // vsmburn: volume soil moisture to define wet soil for prevent organic layer burning
+0.10           // r_retain_c: ratio of burning residue C (retained into soil) 
+0.10           // r_retain_n: ratio of burning residue N (retained into soil)

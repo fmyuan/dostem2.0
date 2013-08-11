@@ -1,0 +1,504 @@
+//===========================================================
+ CMT00 // Upland Tundra Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+ // Plant structure/dimension
+ 1.00                  // vegfrac: vegetation coverage on land - 0 indicates that does't exist
+ 0                     // ifwoody: woody plants (1) or not (0)
+ 0                     // ifdeciwoody: deciduous woodland (1) or not (0)
+ 1                     // ifperenial: perenial (1) or not (0)
+ 1.10                  // nonvascular type: vascular only (0), sphagnum (1), feathermoss (2), lichen (3)
+ 0.0072                // sla: specific leaf area (m2/gC)
+ 0.55                  // klai: extinction coeff for conversion from lai to fpc
+ 0.50                  // minleaf: this and the following 3 parameters are for EET/PET controlled phenology - f(leaf)
+ 0.79640               // aleaf
+ 0.46635               // bleaf
+ -0.02873              // cleaf
+ 1.6662                // kfoliage: this and the following 1 parameters are for non-woody plant's f(foliage) 
+ -0.01954              // cov
+ 15.206                // m1: this and the following 3 parameters are for woody plant's f(foliage)
+ -0.3197               // m2
+ 0.0401                // m3
+ 0.0001                // m4
+ 15.20                 // frprod[0]: fine root production distribution with depth (10 intervals of 10 cm)
+ 30.30
+ 45.50
+ 9.00  
+ 0.00
+ 0.00
+ 0.00
+ 0.00 
+ 0.00
+ 0.00                  // frprod[9]:
+ 0.23                  // lai: initial LAI
+ 1.50                  // envlai[0]: monthly lai for a year, used for static input of LAI
+ 1.50                  // envlai[1]: monthly lai for a year, used for static input of LAI               
+ 1.50                  // envlai[2]: monthly lai for a year, used for static input of LAI 
+ 2.00                  // envlai[3]: monthly lai for a year, used for static input of LAI
+ 2.50                  // envlai[4]: monthly lai for a year, used for static input of LAI 
+ 3.00                  // envlai[5]: monthly lai for a year, used for static input of LAI  
+ 3.50                  // envlai[6]: monthly lai for a year, used for static input of LAI 
+ 4.00                  // envlai[7]: monthly lai for a year, used for static input of LAI
+ 3.50                  // envlai[8]: monthly lai for a year, used for static input of LAI  
+ 3.00                  // envlai[9]: monthly lai for a year, used for static input of LAI
+ 2.50                  // envlai[10]:monthly lai for a year, used for static input of LAI 
+ 2.00                  // envlai[11]:monthly lai for a year, used for static input of LAI
+ // Snow characteristics
+ 350                    // snwdenmax:  max. snow density (kg/m3)
+ 120                    // snwdennew:  new (min.) snow density (kg/m3)
+ 0.                     // initsnwthick: initial snow thickness (m)
+ 0.                     // initsnwdense: initial snow density (kg/m3)
+ // moss characteristics
+ 0.015                  // maxmossthick: max. moss thickness (m)
+ 0.010                  // initmossthick: initial moss thickness (m)
+ 1                      // mosstype: moss type (1: spagnum; 2: ferthermoss; 3: other)
+ 0.049                  // coefmossa:
+ 0.50                   // coefmossb:
+ // soil characteristics
+ 0.150                  // initfibthick:
+ 0.230                  // inithumthick:
+ 0.01               // coefshlwa:
+ 1.3574             // coefshlwb:
+ 0.03               // coefdeepa:
+ 1.2389371          // coefdeepb:
+ 0.04025            // coefminea:
+ 0.0532             // coefmineb:
+//===========================================================
+CMT01 // Lowland Non-forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+ // Plant structure/dimension
+ 1.00                  // vegfrac: vegetation coverage on land - 0 indicates that does't exist
+ 0                     // ifwoody: woody plants (1) or not (0)
+ 0                     // ifdeciwoody: deciduous woodland (1) or not (0)
+ 1                     // ifperenial: perenial (1) or not (0)
+ 1.10                  // nonvascular type: vascular (0), sphagnum (1), feathermoss (2), lichen (3)
+ 0.0072                // sla: specific leaf area (m2/gC)
+ 0.55                  // klai: extinction coeff for conversion from lai to fpc
+ 0.50                  // minleaf: this and the following 3 parameters are for EET/PET controlled phenology - f(leaf)
+ 0.79640               // aleaf
+ 0.46635               // bleaf
+ -0.02873              // cleaf
+ 1.6662                // kfoliage: this and the following 1 parameters are for non-woody plant's f(foliage) 
+ -0.01954              // cov
+ 15.206                // m1: this and the following 3 parameters are for woody plant's f(foliage)
+ -0.3197               // m2
+ 0.0401                // m3
+ 0.0001                // m4
+ 15.20                 // frprod[0]: fine root production distribution with depth (10 intervals of 10 cm)
+ 30.30
+ 45.50
+ 9.00  
+ 0.00
+ 0.00
+ 0.00
+ 0.00 
+ 0.00
+ 0.00                  // frprod[9]:
+ 0.23                  // lai: initial LAI
+ 1.50                  // envlai[0]: monthly lai for a year, used for static input of LAI
+ 1.50                  // envlai[1]: monthly lai for a year, used for static input of LAI               
+ 1.50                  // envlai[2]: monthly lai for a year, used for static input of LAI 
+ 2.00                  // envlai[3]: monthly lai for a year, used for static input of LAI
+ 2.50                  // envlai[4]: monthly lai for a year, used for static input of LAI 
+ 3.00                  // envlai[5]: monthly lai for a year, used for static input of LAI  
+ 3.50                  // envlai[6]: monthly lai for a year, used for static input of LAI 
+ 4.00                  // envlai[7]: monthly lai for a year, used for static input of LAI
+ 3.50                  // envlai[8]: monthly lai for a year, used for static input of LAI  
+ 3.00                  // envlai[9]: monthly lai for a year, used for static input of LAI
+ 2.50                  // envlai[10]:monthly lai for a year, used for static input of LAI 
+ 2.00                  // envlai[11]:monthly lai for a year, used for static input of LAI
+ // Snow characteristics
+ 350                    // snwdenmax:  max. snow density (kg/m3)
+ 120                    // snwdennew:  new (min.) snow density (kg/m3)
+ 0.                     // initsnwthick: initial snow thickness (m)
+ 0.                     // initsnwdense: initial snow density (kg/m3)
+ // moss characteristics
+ 0.015                  // maxmossthick: max. moss thickness (m)
+ 0.010                  // initmossthick: initial moss thickness (m)
+ 1                      // mosstype: moss type (1: spagnum; 2: ferthermoss; 3: other)
+ 0.049                  // coefmossa:
+ 0.50                   // coefmossb:
+ // soil characteristics
+ 0.150                  // initfibthick:
+ 0.230                  // inithumthick:
+ 0.01               // coefshlwa:
+ 1.3574             // coefshlwb:
+ 0.03               // coefdeepa:
+ 1.2389371          // coefdeepb:
+ 0.04025            // coefminea:
+ 0.0532             // coefmineb:
+//===========================================================
+CMT10 // Upland Deciduous Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+ // Plant structure/dimension
+ 1.00                  // vegfrac: vegetation coverage on land - 0 indicates that does't exist
+ 1                     // ifwoody: woody plants (1) or not (0)
+ 1                     // ifdeciwoody: deciduous woodland (1) or not (0)
+ 1                     // ifperenial: perenial (1) or not (0)
+ 0.00                  // nonvascular type: vascular (0), sphagnum (1), feathermoss (2), lichen (3)
+ 0.0072                // sla: specific leaf area (m2/gC)
+ 0.55                  // klai: extinction coeff for conversion from lai to fpc
+ 0.50                  // minleaf: this and the following 3 parameters are for EET/PET controlled phenology - f(leaf)
+ 0.79640               // aleaf
+ 0.46635               // bleaf
+ -0.02873              // cleaf
+ 1.6662                // kfoliage: this and the following 1 parameters are for non-woody plant's f(foliage) 
+ -0.000292             // cov
+ 38.570                // m1: this and the following 3 parameters are for woody plant's f(foliage)
+ -0.4509               // m2
+ 0.0743                // m3
+ 0.0001                // m4
+ 2.20                  // frprod[0]: fine root production distribution with depth (10 intervals of 10 cm)
+ 46.41
+ 33.11
+ 11.59  
+ 2.37
+ 1.70
+ 0.87
+ 0.87 
+ 0.56
+ 0.33                  // frprod[9]:
+ 0.00                  // lai: initial LAI
+ 0.00                  // envlai[0]: monthly lai for a year, used for static input of LAI
+ 0.00                  // envlai[1]: monthly lai for a year, used for static input of LAI               
+ 0.00                  // envlai[2]: monthly lai for a year, used for static input of LAI 
+ 0.50                  // envlai[3]: monthly lai for a year, used for static input of LAI
+ 0.80                  // envlai[4]: monthly lai for a year, used for static input of LAI 
+ 1.80                  // envlai[5]: monthly lai for a year, used for static input of LAI  
+ 2.50                  // envlai[6]: monthly lai for a year, used for static input of LAI 
+ 2.00                  // envlai[7]: monthly lai for a year, used for static input of LAI
+ 1.50                  // envlai[8]: monthly lai for a year, used for static input of LAI  
+ 1.00                  // envlai[9]: monthly lai for a year, used for static input of LAI
+ 0.00                  // envlai[10]:monthly lai for a year, used for static input of LAI 
+ 0.00                  // envlai[11]:monthly lai for a year, used for static input of LAI
+ // Snow characteristics
+ 350                    // snwdenmax:  max. snow density (kg/m3)
+ 120                    // snwdennew:  new (min.) snow density (kg/m3)
+ 0.                     // initsnwthick: initial snow thickness (m)
+ 0.                     // initsnwdense: initial snow density (kg/m3)
+ // moss characteristics
+ 0.000                  // maxmossthick: max. moss thickness (m)
+ 0.000                  // initmossthick: initial moss thickness (m)
+ 0                      // mosstype: moss type (1: spagnum; 2: ferthermoss; 3: other)
+ 0.049                  // coefmossa:
+ 0.50                   // coefmossb:
+ // soil characteristics
+ 0.050                  // initfibthick:
+ 0.100                  // inithumthick:
+ 0.01               // coefshlwa:
+ 1.3574             // coefshlwb:
+ 0.03               // coefdeepa:
+ 1.2389371          // coefdeepb:
+ 0.04025            // coefminea:
+ 0.0532             // coefmineb:
+//===========================================================
+CMT11 // Lowland Deciduous Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// Plant structure/dimension
+ 1.00                  // vegfrac: vegetation coverage on land - 0 indicates that does't exist
+ 1                     // ifwoody: woody plants (1) or not (0)
+ 1                     // ifdeciwoody: deciduous woodland (1) or not (0)
+ 1                     // ifperenial: perenial (1) or not (0)
+ 0.00                  // nonvascular type: vascular (0), sphagnum (1), feathermoss (2), lichen (3)
+ 0.0072                // sla: specific leaf area (m2/gC)
+ 0.55                  // klai: extinction coeff for conversion from lai to fpc
+ 0.50                  // minleaf: this and the following 3 parameters are for EET/PET controlled phenology - f(leaf)
+ 0.79640               // aleaf
+ 0.46635               // bleaf
+ -0.02873              // cleaf
+ 1.6662                // kfoliage: this and the following 1 parameters are for non-woody plant's f(foliage) 
+ -0.000292             // cov
+ 38.570                // m1: this and the following 3 parameters are for woody plant's f(foliage)
+ -0.4509               // m2
+ 0.0743                // m3
+ 0.0001                // m4
+ 2.20                  // frprod[0]: fine root production distribution with depth (10 intervals of 10 cm)
+ 46.41
+ 33.11
+ 11.59  
+ 2.37
+ 1.70
+ 0.87
+ 0.87 
+ 0.56
+ 0.33                  // frprod[9]:
+ 0.00                  // lai: initial LAI
+ 0.00                  // envlai[0]: monthly lai for a year, used for static input of LAI
+ 0.00                  // envlai[1]: monthly lai for a year, used for static input of LAI               
+ 0.00                  // envlai[2]: monthly lai for a year, used for static input of LAI 
+ 0.50                  // envlai[3]: monthly lai for a year, used for static input of LAI
+ 0.80                  // envlai[4]: monthly lai for a year, used for static input of LAI 
+ 1.80                  // envlai[5]: monthly lai for a year, used for static input of LAI  
+ 2.50                  // envlai[6]: monthly lai for a year, used for static input of LAI 
+ 2.00                  // envlai[7]: monthly lai for a year, used for static input of LAI
+ 1.50                  // envlai[8]: monthly lai for a year, used for static input of LAI  
+ 1.00                  // envlai[9]: monthly lai for a year, used for static input of LAI
+ 0.00                  // envlai[10]:monthly lai for a year, used for static input of LAI 
+ 0.00                  // envlai[11]:monthly lai for a year, used for static input of LAI
+ // Snow characteristics
+ 350                    // snwdenmax:  max. snow density (kg/m3)
+ 120                    // snwdennew:  new (min.) snow density (kg/m3)
+ 0.                     // initsnwthick: initial snow thickness (m)
+ 0.                     // initsnwdense: initial snow density (kg/m3)
+ // moss characteristics
+ 0.000                  // maxmossthick: max. moss thickness (m)
+ 0.000                  // initmossthick: initial moss thickness (m)
+ 0                      // mosstype: moss type (1: spagnum; 2: ferthermoss; 3: other)
+ 0.049                  // coefmossa:
+ 0.50                   // coefmossb:
+ // soil characteristics
+ 0.050                  // initfibthick:
+ 0.120                  // inithumthick:
+ 0.01               // coefshlwa:
+ 1.3574             // coefshlwb:
+ 0.03               // coefdeepa:
+ 1.2389371          // coefdeepb:
+ 0.04025            // coefminea:
+ 0.0532             // coefmineb:
+//===========================================================
+CMT20 // Upland White Spruce Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// Plant structure/dimension
+ 1.00                  // vegfrac: vegetation coverage on land - 0 indicates that does't exist
+ 1                     // ifwoody: woody plants (1) or not (0)
+ 0                     // ifdeciwoody: deciduous woodland (1) or not (0)
+ 1                     // ifperenial: perenial (1) or not (0)
+ 1.25                  // nonvascular type: vascular (0), sphagnum (1), feathermoss (2), lichen (3)
+ 0.0072                // sla: specific leaf area (m2/gC)
+ 0.55                  // klai: extinction coeff for conversion from lai to fpc
+ 0.50                  // minleaf: this and the following 3 parameters are for EET/PET controlled phenology - f(leaf)
+ 0.79640               // aleaf
+ 0.46635               // bleaf
+ -0.02873              // cleaf
+ 1.6662                // kfoliage: this and the following 1 parameters are for non-woody plant's f(foliage) 
+ -0.000292             // cov
+ 28.550                // m1: this and the following 3 parameters are for woody plant's f(foliage)
+ -0.3641               // m2
+ 0.0781                // m3
+ 0.0001                // m4
+ 51.95                 // frprod[0]: fine root production distribution with depth (10 intervals of 10 cm)
+ 22.42
+ 11.05
+ 5.30  
+ 5.34
+ 2.97
+ 0.80
+ 0.18 
+ 0.00
+ 0.00                  // frprod[9]:
+ 1.10                  // lai: initial LAI
+ 1.10                  // envlai[0]: monthly lai for a year, used for static input of LAI
+ 1.15                  // envlai[1]: monthly lai for a year, used for static input of LAI               
+ 1.20                  // envlai[2]: monthly lai for a year, used for static input of LAI 
+ 1.20                  // envlai[3]: monthly lai for a year, used for static input of LAI
+ 1.30                  // envlai[4]: monthly lai for a year, used for static input of LAI 
+ 1.90                  // envlai[5]: monthly lai for a year, used for static input of LAI  
+ 2.00                  // envlai[6]: monthly lai for a year, used for static input of LAI 
+ 2.00                  // envlai[7]: monthly lai for a year, used for static input of LAI
+ 1.50                  // envlai[8]: monthly lai for a year, used for static input of LAI  
+ 1.30                  // envlai[9]: monthly lai for a year, used for static input of LAI
+ 1.15                  // envlai[10]:monthly lai for a year, used for static input of LAI 
+ 1.10                  // envlai[11]:monthly lai for a year, used for static input of LAI
+ // Snow characteristics
+ 350                    // snwdenmax:  max. snow density (kg/m3)
+ 120                    // snwdennew:  new (min.) snow density (kg/m3)
+ 0.                     // initsnwthick: initial snow thickness (m)
+ 0.                     // initsnwdense: initial snow density (kg/m3)
+ // moss characteristics
+ 0.035                  // maxmossthick: max. moss thickness (m)
+ 0.010                  // initmossthick: initial moss thickness (m)
+ 1                      // mosstype: moss type (1: spagnum; 2: ferthermoss; 3: other)
+ 0.049                  // coefmossa:
+ 0.50                   // coefmossb:
+ // soil characteristics
+ 0.050                  // initfibthick:
+ 0.050                  // inithumthick:
+ 0.01               // coefshlwa:
+ 1.3574             // coefshlwb:
+ 0.03               // coefdeepa:
+ 1.2389371          // coefdeepb:
+ 0.04025            // coefminea:
+ 0.0532             // coefmineb:
+//===========================================================
+CMT21 // Lowland White Spruce Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// Plant structure/dimension
+ 1.00                  // vegfrac: vegetation coverage on land - 0 indicates that does't exist
+ 1                     // ifwoody: woody plants (1) or not (0)
+ 0                     // ifdeciwoody: deciduous woodland (1) or not (0)
+ 1                     // ifperenial: perenial (1) or not (0)
+ 1.25                  // nonvascular type: vascular (0), sphagnum (1), feathermoss (2), lichen (3)
+ 0.0072                // sla: specific leaf area (m2/gC)
+ 0.55                  // klai: extinction coeff for conversion from lai to fpc
+ 0.50                  // minleaf: this and the following 3 parameters are for EET/PET controlled phenology - f(leaf)
+ 0.79640               // aleaf
+ 0.46635               // bleaf
+ -0.02873              // cleaf
+ 1.6662                // kfoliage: this and the following 1 parameters are for non-woody plant's f(foliage) 
+ -0.000292             // cov
+ 28.550                // m1: this and the following 3 parameters are for woody plant's f(foliage)
+ -0.3641               // m2
+ 0.0781                // m3
+ 0.0001                // m4
+ 51.95                 // frprod[0]: fine root production distribution with depth (10 intervals of 10 cm)
+ 22.42
+ 11.05
+ 5.30  
+ 5.34
+ 2.97
+ 0.80
+ 0.18 
+ 0.00
+ 0.00                  // frprod[9]:
+ 1.10                  // lai: initial LAI
+ 1.10                  // envlai[0]: monthly lai for a year, used for static input of LAI
+ 1.15                  // envlai[1]: monthly lai for a year, used for static input of LAI               
+ 1.20                  // envlai[2]: monthly lai for a year, used for static input of LAI 
+ 1.20                  // envlai[3]: monthly lai for a year, used for static input of LAI
+ 1.30                  // envlai[4]: monthly lai for a year, used for static input of LAI 
+ 1.90                  // envlai[5]: monthly lai for a year, used for static input of LAI  
+ 2.00                  // envlai[6]: monthly lai for a year, used for static input of LAI 
+ 2.00                  // envlai[7]: monthly lai for a year, used for static input of LAI
+ 1.50                  // envlai[8]: monthly lai for a year, used for static input of LAI  
+ 1.30                  // envlai[9]: monthly lai for a year, used for static input of LAI
+ 1.15                  // envlai[10]:monthly lai for a year, used for static input of LAI 
+ 1.10                  // envlai[11]:monthly lai for a year, used for static input of LAI
+ // Snow characteristics
+ 350                    // snwdenmax:  max. snow density (kg/m3)
+ 120                    // snwdennew:  new (min.) snow density (kg/m3)
+ 0.                     // initsnwthick: initial snow thickness (m)
+ 0.                     // initsnwdense: initial snow density (kg/m3)
+ // moss characteristics
+ 0.035                  // maxmossthick: max. moss thickness (m)
+ 0.010                  // initmossthick: initial moss thickness (m)
+ 1                      // mosstype: moss type (1: spagnum; 2: ferthermoss; 3: other)
+ 0.049                  // coefmossa:
+ 0.50                   // coefmossb:
+ // soil characteristics
+ 0.090                  // initfibthick:
+ 0.100                  // inithumthick:
+ 0.01               // coefshlwa:
+ 1.3574             // coefshlwb:
+ 0.03               // coefdeepa:
+ 1.2389371          // coefdeepb:
+ 0.04025            // coefminea:
+ 0.0532             // coefmineb:
+//===========================================================
+CMT30 // Upland Black Spruce Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// Plant structure/dimension
+ 1.00                  // vegfrac: vegetation coverage on land - 0 indicates that does't exist
+ 1                     // ifwoody: woody plants (1) or not (0)
+ 0                     // ifdeciwoody: deciduous woodland (1) or not (0)
+ 1                     // ifperenial: perenial (1) or not (0)
+ 1.50                  // nonvascular type: vascular (0), sphagnum (1), feathermoss (2), lichen (3)
+ 0.0072                // sla: specific leaf area (m2/gC)
+ 0.55                  // klai: extinction coeff for conversion from lai to fpc
+ 0.50                  // minleaf: this and the following 3 parameters are for EET/PET controlled phenology - f(leaf)
+ 0.42893               // aleaf
+ 0.33295               // bleaf
+ 0.32228               // cleaf
+ 1.6662                // kfoliage: this and the following 1 parameters are for non-woody plant's f(foliage) 
+ -0.000292             // cov
+ 19.620                // m1: this and the following 3 parameters are for woody plant's f(foliage)
+ -0.3999               // m2
+ 0.1487                // m3
+ 0.0001                // m4
+ 26.34                 // frprod[0]: fine root production distribution with depth (10 intervals of 10 cm)
+ 54.57
+ 13.48
+ 2.64  
+ 0.60
+ 0.58
+ 1.79
+ 0.00 
+ 0.00
+ 0.00                  // frprod[9]:
+ 1.10                  // lai: initial LAI
+ 1.10                  // envlai[0]: monthly lai for a year, used for static input of LAI
+ 1.15                  // envlai[1]: monthly lai for a year, used for static input of LAI               
+ 1.20                  // envlai[2]: monthly lai for a year, used for static input of LAI 
+ 1.20                  // envlai[3]: monthly lai for a year, used for static input of LAI
+ 1.30                  // envlai[4]: monthly lai for a year, used for static input of LAI 
+ 1.90                  // envlai[5]: monthly lai for a year, used for static input of LAI  
+ 2.00                  // envlai[6]: monthly lai for a year, used for static input of LAI 
+ 2.00                  // envlai[7]: monthly lai for a year, used for static input of LAI
+ 1.50                  // envlai[8]: monthly lai for a year, used for static input of LAI  
+ 1.30                  // envlai[9]: monthly lai for a year, used for static input of LAI
+ 1.15                  // envlai[10]:monthly lai for a year, used for static input of LAI 
+ 1.10                  // envlai[11]:monthly lai for a year, used for static input of LAI
+ // Snow characteristics
+ 350                    // snwdenmax:  max. snow density (kg/m3)
+ 120                    // snwdennew:  new (min.) snow density (kg/m3)
+ 0.                     // initsnwthick: initial snow thickness (m)
+ 0.                     // initsnwdense: initial snow density (kg/m3)
+ // moss characteristics
+ 0.035                  // maxmossthick: max. moss thickness (m)
+ 0.020                  // initmossthick: initial moss thickness (m)
+ 1                      // mosstype: moss type (1: spagnum; 2: ferthermoss; 3: other)
+ 0.049                  // coefmossa:
+ 0.50                   // coefmossb:
+ // soil characteristics
+ 0.022                  // initfibthick:
+ 0.125                  // inithumthick:
+ 0.01               // coefshlwa:
+ 1.3574             // coefshlwb:
+ 0.03               // coefdeepa:
+ 1.2389371          // coefdeepb:
+ 0.04025            // coefminea:
+ 0.0532             // coefmineb:
+//===========================================================
+CMT31 // Lowland Black Spruce Forest Ecosystem - (1 veg community over 1 soil column) (BGC) plant calibrated parameters
+// Plant structure/dimension
+ 1.00                  // vegfrac: vegetation coverage on land - 0 indicates that does't exist
+ 1                     // ifwoody: woody plants (1) or not (0)
+ 0                     // ifdeciwoody: deciduous woodland (1) or not (0)
+ 1                     // ifperenial: perenial (1) or not (0)
+ 1.50                  // nonvascular type: vascular (0), sphagnum (1), feathermoss (2), lichen (3)
+ 0.0072                // sla: specific leaf area (m2/gC)
+ 0.55                  // klai: extinction coeff for conversion from lai to fpc
+ 0.50                  // minleaf: this and the following 3 parameters are for EET/PET controlled phenology - f(leaf)
+ 0.42893               // aleaf
+ 0.33295               // bleaf
+ 0.32228               // cleaf
+ 1.6662                // kfoliage: this and the following 1 parameters are for non-woody plant's f(foliage) 
+ -0.000292             // cov
+ 19.620                // m1: this and the following 3 parameters are for woody plant's f(foliage)
+ -0.3999               // m2
+ 0.1487                // m3
+ 0.0001                // m4
+ 26.34                 // frprod[0]: fine root production distribution with depth (10 intervals of 10 cm)
+ 54.57
+ 13.48
+ 2.64  
+ 0.60
+ 0.58
+ 1.79
+ 0.00 
+ 0.00
+ 0.00                  // frprod[9]:
+ 1.10                  // lai: initial LAI
+ 1.10                  // envlai[0]: monthly lai for a year, used for static input of LAI
+ 1.15                  // envlai[1]: monthly lai for a year, used for static input of LAI               
+ 1.20                  // envlai[2]: monthly lai for a year, used for static input of LAI 
+ 1.20                  // envlai[3]: monthly lai for a year, used for static input of LAI
+ 1.30                  // envlai[4]: monthly lai for a year, used for static input of LAI 
+ 1.90                  // envlai[5]: monthly lai for a year, used for static input of LAI  
+ 2.00                  // envlai[6]: monthly lai for a year, used for static input of LAI 
+ 2.00                  // envlai[7]: monthly lai for a year, used for static input of LAI
+ 1.50                  // envlai[8]: monthly lai for a year, used for static input of LAI  
+ 1.30                  // envlai[9]: monthly lai for a year, used for static input of LAI
+ 1.15                  // envlai[10]:monthly lai for a year, used for static input of LAI 
+ 1.10                  // envlai[11]:monthly lai for a year, used for static input of LAI
+ // Snow characteristics
+ 350                    // snwdenmax:  max. snow density (kg/m3)
+ 120                    // snwdennew:  new (min.) snow density (kg/m3)
+ 0.                     // initsnwthick: initial snow thickness (m)
+ 0.                     // initsnwdense: initial snow density (kg/m3)
+ // moss characteristics
+ 0.035                  // maxmossthick: max. moss thickness (m)
+ 0.020                  // initmossthick: initial moss thickness (m)
+ 1                      // mosstype: moss type (1: spagnum; 2: ferthermoss; 3: other)
+ 0.049                  // coefmossa:
+ 0.50                   // coefmossb:
+ // soil characteristics
+ 0.20                  // initfibthick:
+ 0.16                  // inithumthick:
+ 0.01               // coefshlwa:
+ 1.3574             // coefshlwb:
+ 0.03               // coefdeepa:
+ 1.2389371          // coefdeepb:
+ 0.04025            // coefminea:
+ 0.0532             // coefmineb:

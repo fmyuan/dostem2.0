@@ -1,0 +1,448 @@
+//===========================================================
+CMT00 // Upland Tundra Ecosystem - (1 veg community over 1 soil column)
+// Plant BGC physiological parameters and default initial conditions
+400.0        // kc:
+75           // ki:
+-5.0         // tmin:
+5.5          // toptmin:
+20.0         // toptmax:
+35.0         // tmax:
+2.3566500    // raq10a0:
+-0.0530770   // raq10a1:
+0.0023842    // raq10a2:
+-0.0000411   // raq10a3:
+0.0042       // knuptake: 
+0.150        // cpartl:
+0.000        // cpartw:
+0.850        // cpartr:
+123.0        // initcnevenl:
+0.00         // initcnevenw:
+123.0        // initcnevenr:
+123.0        // cnevenbl:
+0.00         // cnevenbw:
+123.0        // cnevenbr:
+56.0         // cnevenminl:
+0.00         // cnevenminw:
+56.0         // cnevenminr:
+0.0          // cnevena:  for eet/pet adjusting (0.0 for none)
+0.20         // labncon:
+40.9         // initvegcl:
+0.0          // initvegcw:
+220.3        // initvegcr:
+1.05         // initvegnl:
+0.0          // initvegnw:
+3.52         // initvegnr:
+0.0          // initdeadc:
+0.0          // initdeadn:
+// soil BGC parameters and default initial conditions
+2.0               // rhq10:
+0.0               // moistmin:
+0.5               // moistopt:
+1.0               // moistmax:
+215.4             // lcclnc:
+0.372             // fsoma:
+0.611             // fsompr:
+0.017             // fsomcr:
+0.346             // som2co2:
+0.0042            // kn2:
+25.72             // nmincnsoil:
+0.2               // propftos:
+0.0               // fnloss:  fraction N leaching (0 - 1) when drainage occurs
+10                // initdmossc:
+4287              // initshlwc:
+13990             // initdeepc:
+21185             // initminec:
+1534              // initsoln:
+0.45              // initavln:
+//===========================================================
+CMT01 // Lowland Non-forest Ecosystem - (1 veg community over 1 soil column)
+// Plant BGC physiological parameters and default initial conditions
+400.0        // kc:
+75           // ki:
+-5.0         // tmin:
+5.5          // toptmin:
+20.0         // toptmax:
+35.0         // tmax:
+2.3566500    // raq10a0:
+-0.0530770   // raq10a1:
+0.0023842    // raq10a2:
+-0.0000411   // raq10a3:
+0.0042       // knuptake: 
+0.150        // cpartl:
+0.000        // cpartw:
+0.850        // cpartr:
+123.0        // initcnevenl:
+0.00         // initcnevenw:
+123.0        // initcnevenr:
+123.0        // cnevenbl:
+0.00         // cnevenbw:
+123.0        // cnevenbr:
+56.0         // cnevenminl:
+0.00         // cnevenminw:
+56.0         // cnevenminr:
+0.0          // cnevena:  for eet/pet adjusting (0.0 for none)
+0.20         // labncon:
+40.9         // initvegcl:
+0.0          // initvegcw:
+220.3        // initvegcr:
+1.05         // initvegnl:
+0.0          // initvegnw:
+3.52         // initvegnr:
+0.0          // initdeadc:
+0.0          // initdeadn:
+// soil BGC parameters and default initial conditions
+2.0               // rhq10:
+0.0               // moistmin:
+0.5               // moistopt:
+1.0               // moistmax:
+215.4             // lcclnc:
+0.372             // fsoma:
+0.611             // fsompr:
+0.017             // fsomcr:
+0.346             // som2co2:
+0.0042            // kn2:
+25.72             // nmincnsoil:
+0.2               // propftos:
+0.0               // fnloss:  fraction N leaching (0 - 1) when drainage occurs
+10                // initdmossc:
+4287              // initshlwc:
+13990             // initdeepc:
+21185             // initminec:
+1534              // initsoln:
+0.45              // initavln:
+//===========================================================
+CMT10 // Upland Deciduous Forest Ecosystem - (1 veg community over 1 soil column)
+// Plant BGC physiological parameters and default initial conditions
+400.0        // kc:
+75           // ki:
+-1.0         // tmin:
+5.5          // toptmin:
+20.0         // toptmax:
+35.0         // tmax:
+2.3566500    // raq10a0:
+-0.0530770   // raq10a1:
+0.0023842    // raq10a2:
+-0.0000411   // raq10a3:
+0.0042       // knuptake: 
+0.750        // cpartl:
+0.200        // cpartw:
+0.050        // cpartr:
+70.6        // initcnevenl:
+554.8        // initcnevenw:
+70.6        // initcnevenr:
+70.6         // cnevenbl:
+554.8        // cnevenbw:
+70.6         // cnevenbr:
+70.6         // cnevenminl:
+554.8        // cnevenminw:
+70.6         // cnevenminr:
+0.0          // cnevena:  for eet/pet adjusting (0.0 for none)
+0.20         // labncon:
+121.9        // initvegcl:
+1519.4       // initvegcw:
+410.3        // initvegcr:
+1.05         // initvegnl:
+2.74         // initvegnw:
+3.52         // initvegnr:
+0.0          // initdeadc:
+0.0          // initdeadn:
+// soil BGC parameters and default initial conditions
+2.0               // rhq10:
+0.0               // moistmin:
+0.5               // moistopt:
+1.0               // moistmax:
+48.38             // lcclnc:
+0.372             // fsoma:
+0.611             // fsompr:
+0.017             // fsomcr:
+0.346             // som2co2:
+0.0042            // kn2:
+17.20             // nmincnsoil:
+0.2               // propftos:
+0.0               // fnloss:  fraction N leaching (0 - 1) when drainage occurs
+0.0               // initdmossc:
+1852              // initshlwc:
+5707              // initdeepc:
+5578              // initminec:
+679               // initsoln:
+3.50              // initavln:
+//===========================================================
+CMT11 // Upland Deciduous Forest Ecosystem - (1 veg community over 1 soil column)
+// Plant BGC physiological parameters and default initial conditions
+ 400.0        // kc:
+ 75           // ki:
+ -1.0         // tmin:
+ 5.5          // toptmin:
+ 20.0         // toptmax:
+ 35.0         // tmax:
+ 2.3566500    // raq10a0:
+ -0.0530770   // raq10a1:
+ 0.0023842    // raq10a2:
+ -0.0000411   // raq10a3:
+ 0.0042       // knuptake: 
+ 0.750        // cpartl:
+ 0.200        // cpartw:
+ 0.050        // cpartr:
+ 116.7        // initcnevenl:
+ 554.8        // initcnevenw:
+ 116.7        // initcnevenr:
+ 70.6         // cnevenbl:
+ 554.8        // cnevenbw:
+ 70.6         // cnevenbr:
+ 70.6         // cnevenminl:
+ 554.8        // cnevenminw:
+ 70.6         // cnevenminr:
+ 0.0          // cnevena:  for eet/pet adjusting (0.0 for none)
+ 0.20         // labncon:
+ 121.9        // initvegcl:
+ 1519.4       // initvegcw:
+ 410.3        // initvegcr:
+ 1.05         // initvegnl:
+ 2.74         // initvegnw:
+ 3.52         // initvegnr:
+ 0.0          // initdeadc:
+ 0.0          // initdeadn:
+// soil BGC parameters and default initial conditions
+ 2.0               // rhq10:
+ 0.0               // moistmin:
+ 0.5               // moistopt:
+ 1.0               // moistmax:
+ 48.38             // lcclnc:
+ 0.372             // fsoma:
+ 0.611             // fsompr:
+ 0.017             // fsomcr:
+ 0.346             // som2co2:
+ 0.0042            // kn2:
+ 17.20             // nmincnsoil:
+ 0.2               // propftos:
+ 0.0               // fnloss:  fraction N leaching (0 - 1) when drainage occurs
+ 0.0               // initdmossc:
+ 2817              // initshlwc:
+ 7843              // initdeepc:
+ 8013              // initminec:
+ 784               // initsoln:
+ 1.50              // initavln:
+//===========================================================
+CMT20 // Upland White Spruce Forest Ecosystem - (1 veg community over 1 soil column)
+// Plant BGC physiological parameters and default initial conditions
+ 400.0        // kc:
+ 75           // ki:
+ -1.0         // tmin:
+ 5.5          // toptmin:
+ 20.0         // toptmax:
+ 35.0         // tmax:
+ 2.3566500    // raq10a0:
+ -0.0530770   // raq10a1:
+ 0.0023842    // raq10a2:
+ -0.0000411   // raq10a3:
+ 0.0042       // knuptake: 
+ 0.750        // cpartl:
+ 0.200        // cpartw:
+ 0.050        // cpartr:
+ 116.7        // initcnevenl:
+ 554.8        // initcnevenw:
+ 116.7        // initcnevenr:
+ 70.6         // cnevenbl:
+ 554.8        // cnevenbw:
+ 70.6         // cnevenbr:
+ 70.6         // cnevenminl:
+ 554.8        // cnevenminw:
+ 70.6         // cnevenminr:
+ 0.0          // cnevena:  for eet/pet adjusting (0.0 for none)
+ 0.20         // labncon:
+ 121.9        // initvegcl:
+ 1519.4       // initvegcw:
+ 410.3        // initvegcr:
+ 1.05         // initvegnl:
+ 2.74         // initvegnw:
+ 3.52         // initvegnr:
+ 0.0          // initdeadc:
+ 0.0          // initdeadn:
+// soil BGC parameters and default initial conditions
+ 2.0               // rhq10:
+ 0.0               // moistmin:
+ 0.5               // moistopt:
+ 1.0               // moistmax:
+ 246.0             // lcclnc:
+ 0.372             // fsoma:
+ 0.611             // fsompr:
+ 0.017             // fsomcr:
+ 0.346             // som2co2:
+ 0.0042            // kn2:
+ 21.61             // nmincnsoil:
+ 0.2               // propftos:
+ 0.0               // fnloss:  fraction N leaching (0 - 1) when drainage occurs
+ 10                // initdmossc:
+ 1600              // initshlwc:
+ 2310              // initdeepc:
+ 6026              // initminec:
+ 568               // initsoln:
+ 1.50              // initavln:
+//===========================================================
+CMT21 // Lowland White Spruce Forest Ecosystem - (1 veg community over 1 soil column)
+// Plant BGC physiological parameters and default initial conditions
+ 400.0        // kc:
+ 75           // ki:
+ -1.0         // tmin:
+ 5.5          // toptmin:
+ 20.0         // toptmax:
+ 35.0         // tmax:
+ 2.3566500    // raq10a0:
+ -0.0530770   // raq10a1:
+ 0.0023842    // raq10a2:
+ -0.0000411   // raq10a3:
+ 0.0042       // knuptake: 
+ 0.750        // cpartl:
+ 0.200        // cpartw:
+ 0.050        // cpartr:
+ 116.7        // initcnevenl:
+ 554.8        // initcnevenw:
+ 116.7        // initcnevenr:
+ 70.6         // cnevenbl:
+ 554.8        // cnevenbw:
+ 70.6         // cnevenbr:
+ 70.6         // cnevenminl:
+ 554.8        // cnevenminw:
+ 70.6         // cnevenminr:
+ 0.0          // cnevena:  for eet/pet adjusting (0.0 for none)
+ 0.20         // labncon:
+ 121.9        // initvegcl:
+ 1519.4       // initvegcw:
+ 410.3        // initvegcr:
+ 1.05         // initvegnl:
+ 2.74         // initvegnw:
+ 3.52         // initvegnr:
+ 0.0          // initdeadc:
+ 0.0          // initdeadn:
+// soil BGC parameters and default initial conditions
+ 2.0               // rhq10:
+ 0.0               // moistmin:
+ 0.5               // moistopt:
+ 1.0               // moistmax:
+ 246.0             // lcclnc:
+ 0.372             // fsoma:
+ 0.611             // fsompr:
+ 0.017             // fsomcr:
+ 0.346             // som2co2:
+ 0.0042            // kn2:
+ 21.61             // nmincnsoil:
+ 0.2               // propftos:
+ 0.0               // fnloss:  fraction N leaching (0 - 1) when drainage occurs
+ 10                // initdmossc:
+ 5837              // initshlwc:
+ 5327              // initdeepc:
+ 9875              // initminec:
+ 865               // initsoln:
+ 1.00              // initavln:
+//===========================================================
+CMT30 // Upland Black Spruce Forest Ecosystem - (1 veg community over 1 soil column)
+// Plant BGC physiological parameters and default initial conditions
+ 400.0        // kc:
+ 75           // ki:
+ -1.0         // tmin:
+ 5.5          // toptmin:
+ 20.0         // toptmax:
+ 35.0         // tmax:
+ 2.3566500    // raq10a0:
+ -0.0530770   // raq10a1:
+ 0.0023842    // raq10a2:
+ -0.0000411   // raq10a3:
+ 0.0042       // knuptake: 
+ 0.750        // cpartl:
+ 0.200        // cpartw:
+ 0.050        // cpartr:
+ 116.7        // initcnevenl:
+ 554.8        // initcnevenw:
+ 116.7        // initcnevenr:
+ 70.6         // cnevenbl:
+ 554.8        // cnevenbw:
+ 70.6         // cnevenbr:
+ 70.6         // cnevenminl:
+ 554.8        // cnevenminw:
+ 70.6         // cnevenminr:
+ 0.0          // cnevena:  for eet/pet adjusting (0.0 for none)
+ 0.20         // labncon:
+ 121.9        // initvegcl:
+ 1519.4       // initvegcw:
+ 410.3        // initvegcr:
+ 1.05         // initvegnl:
+ 2.74         // initvegnw:
+ 3.52         // initvegnr:
+ 0.0          // initdeadc:
+ 0.0          // initdeadn:
+ // soil BGC parameters and default initial conditions
+ 2.0               // rhq10:
+ 0.0               // moistmin:
+ 0.5               // moistopt:
+ 1.0               // moistmax:
+ 83.1              // lcclnc:
+ 0.372             // fsoma:
+ 0.611             // fsompr:
+ 0.017             // fsomcr:
+ 0.346             // som2co2:
+ 0.0042            // kn2:
+ 27.34             // nmincnsoil:
+ 0.2               // propftos:
+ 0.0               // fnloss:  fraction N leaching (0 - 1) when drainage occurs
+ 100               // initdmossc:
+ 310               // initshlwc:
+ 4115              // initdeepc:
+ 10014             // initminec:
+ 548               // initsoln:
+ 0.75              // initavln:
+//===========================================================
+CMT31 // Lowland Black Spruce Forest Ecosystem - (1 veg community over 1 soil column)
+// Plant BGC physiological parameters and default initial conditions
+ 400.0        // kc:
+ 75           // ki:
+ -1.0         // tmin:
+ 5.5          // toptmin:
+ 20.0         // toptmax:
+ 35.0         // tmax:
+ 2.3566500    // raq10a0:
+ -0.0530770   // raq10a1:
+ 0.0023842    // raq10a2:
+ -0.0000411   // raq10a3:
+ 0.0042       // knuptake: 
+ 0.750        // cpartl:
+ 0.200        // cpartw:
+ 0.050        // cpartr:
+ 116.7        // initcnevenl:
+ 554.8        // initcnevenw:
+ 116.7        // initcnevenr:
+ 70.6         // cnevenbl:
+ 554.8        // cnevenbw:
+ 70.6         // cnevenbr:
+ 70.6         // cnevenminl:
+ 554.8        // cnevenminw:
+ 70.6         // cnevenminr:
+ 0.0          // cnevena:  for eet/pet adjusting (0.0 for none)
+ 0.20         // labncon:
+ 121.9        // initvegcl:
+ 1519.4       // initvegcw:
+ 410.3        // initvegcr:
+ 1.05         // initvegnl:
+ 2.74         // initvegnw:
+ 3.52         // initvegnr:
+ 0.0          // initdeadc:
+ 0.0          // initdeadn:
+ // soil BGC parameters and default initial conditions
+ 2.0               // rhq10:
+ 0.0               // moistmin:
+ 0.5               // moistopt:
+ 1.0               // moistmax:
+ 83.1              // lcclnc:
+ 0.372             // fsoma:
+ 0.611             // fsompr:
+ 0.017             // fsomcr:
+ 0.346             // som2co2:
+ 0.0042            // kn2:
+ 27.34             // nmincnsoil:
+ 0.2               // propftos:
+ 0.0               // fnloss:  fraction N leaching (0 - 1) when drainage occurs
+ 500               // initdmossc:
+ 3540              // initshlwc:
+ 9772              // initdeepc:
+ 5721              // initminec:
+ 671               // initsoln:
+ 0.50              // initavln:

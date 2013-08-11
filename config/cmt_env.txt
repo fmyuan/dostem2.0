@@ -1,0 +1,344 @@
+//===========================================================
+CMT00 // Upland Tundra Ecosystem - (1 veg community over 1 soil column)
+// (Biophysical) plant leaf characteristics and parameters
+ 0.16               // albvisnir: canopy albedo
+ 0.50               // er: light extinction coefficient
+ 0.041              // ircoef: rainfall interception 
+ 0.041              // iscoef: snow interception
+ 0.005              // glmax: max. canopy conductance (m/s)
+ 0.04               // gl_bl: boundary layer conductance
+ 0.00001            // gl_c:  cuticular conductance
+ 930                // vpd_open:  vpd (pa) for leaf stomata fully openness
+ 4100               // vpd_close: vpd (pa) for leaf stomata fully closure
+ 75                 // ppfd50::
+ 0.0                // initvegwater: initial intercepted rain water in canopy
+ 0.0                // initvegsnow: initial intercepted snow water in canopy
+ // ground(snow-soil) (bio)physical properties and parameters
+ 0.8                // snwalbmax:
+ 0.4                // snwalbmin:
+ -1.5e5             // psimax:
+ 0.08               // evapmin:
+ 0.04               // drainmax:
+ 0.20               // rtdp4gdd:
+ -1.0               // initsnwtem: initial snow temperature (oC)
+ -1.0               // initts(0): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(1): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(2): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(3): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(4): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(5): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(6): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(7): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(8): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(9): initial soil temperature at 10 cm interval (oC)
+ 0.10               // initvwc(0): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(1): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(2): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(3): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(4): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(5): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(6): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(7): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(8): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(9): initial soil volume water content at every 10 cm interval
+//===========================================================
+CMT01 // Lowland Non-forest Ecosystem - (1 veg community over 1 soil column)
+// (Biophysical) plant leaf characteristics and parameters
+ 0.16               // albvisnir: canopy albedo
+ 0.50               // er: light extinction coefficient
+ 0.041              // ircoef: rainfall interception 
+ 0.041              // iscoef: snow interception
+ 0.005              // glmax: max. canopy conductance (m/s)
+ 0.04               // gl_bl: boundary layer conductance
+ 0.00001            // gl_c:  cuticular conductance
+ 930                // vpd_open:  vpd (pa) for leaf stomata fully openness
+ 4100               // vpd_close: vpd (pa) for leaf stomata fully closure
+ 75                 // ppfd50::
+ 0.0                // initvegwater: initial intercepted rain water in canopy
+ 0.0                // initvegsnow: initial intercepted snow water in canopy
+ // ground(snow-soil) (bio)physical properties and parameters
+ 0.8                // snwalbmax:
+ 0.4                // snwalbmin:
+ -1.5e5             // psimax:
+ 0.08               // evapmin:
+ 0.00               // drainmax:
+ 0.20               // rtdp4gdd:
+ -1.0               // initsnwtem: initial snow temperature (oC)
+ -1.0               // initts(0): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(1): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(2): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(3): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(4): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(5): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(6): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(7): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(8): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(9): initial soil temperature at 10 cm interval (oC)
+ 0.10               // initvwc(0): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(1): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(2): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(3): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(4): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(5): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(6): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(7): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(8): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(9): initial soil volume water content at every 10 cm interval
+//===========================================================
+CMT10 // Upland Deciduous Forest Ecosystem - (1 veg community over 1 soil column)
+// (Biophysical) plant leaf characteristics and parameters
+ 0.19               // albvisnir: canopy albedo
+ 0.50               // er: light extinction coefficient
+ 0.041              // ircoef: rainfall interception 
+ 0.041              // iscoef: snow interception
+ 0.005              // glmax: max. canopy conductance (m/s)
+ 0.01               // gl_bl: boundary layer conductance
+ 0.00001            // gl_c:  cuticular conductance
+ 930                // vpd_open:  vpd (pa) for leaf stomata fully openness
+ 4100               // vpd_close: vpd (pa) for leaf stomata fully closure
+ 75                 // ppfd50::
+ 0.0                // initvegwater: initial intercepted rain water in canopy
+ 0.0                // initvegsnow: initial intercepted snow water in canopy
+ // ground(snow-soil) (bio)physical properties and parameters
+ 0.8                // snwalbmax:
+ 0.4                // snwalbmin:
+ -1.5e6             // psimax:
+ 0.08               // evapmin:
+ 0.04               // drainmax:
+ 0.20               // rtdp4gdd:
+ -1.0               // initsnwtem: initial snow temperature (oC)
+ -1.0               // initts(0): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(1): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(2): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(3): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(4): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(5): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(6): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(7): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(8): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(9): initial soil temperature at 10 cm interval (oC)
+ 0.10               // initvwc(0): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(1): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(2): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(3): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(4): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(5): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(6): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(7): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(8): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(9): initial soil volume water content at every 10 cm interval
+//===========================================================
+CMT11 // Floodplain (lowland) Deciduous Forest Ecosystem - (1 veg community over 1 soil column)
+// (Biophysical) plant leaf characteristics and parameters
+ 0.19               // albvisnir: canopy albedo
+ 0.50               // er: light extinction coefficient
+ 0.041              // ircoef: rainfall interception 
+ 0.041              // iscoef: snow interception
+ 0.005              // glmax: max. canopy conductance (m/s)
+ 0.01               // gl_bl: boundary layer conductance
+ 0.00001            // gl_c:  cuticular conductance
+ 930                // vpd_open:  vpd (pa) for leaf stomata fully openness
+ 4100               // vpd_close: vpd (pa) for leaf stomata fully closure
+ 75                 // ppfd50::
+ 0.0                // initvegwater: initial intercepted rain water in canopy
+ 0.0                // initvegsnow: initial intercepted snow water in canopy
+ // ground(snow-soil) (bio)physical properties and parameters
+ 0.8                // snwalbmax:
+ 0.4                // snwalbmin:
+ -1.5e6             // psimax:
+ 0.08               // evapmin:
+ 0.00               // drainmax:
+ 0.20               // rtdp4gdd:
+ -1.0               // initsnwtem: initial snow temperature (oC)
+ -1.0               // initts(0): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(1): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(2): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(3): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(4): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(5): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(6): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(7): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(8): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(9): initial soil temperature at 10 cm interval (oC)
+ 0.10               // initvwc(0): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(1): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(2): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(3): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(4): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(5): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(6): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(7): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(8): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(9): initial soil volume water content at every 10 cm interval
+//===========================================================
+CMT20 // Upland White Spruce Forest Ecosystem - (1 veg community over 1 soil column)
+// (Biophysical) plant leaf characteristics and parameters
+ 0.10               // albvisnir: canopy albedo
+ 0.50               // er: light extinction coefficient
+ 0.041              // ircoef: rainfall interception 
+ 0.041              // iscoef: snow interception
+ 0.003              // glmax: max. canopy conductance (m/s)
+ 0.08               // gl_bl: boundary layer conductance
+ 0.00001            // gl_c:  cuticular conductance
+ 930                // vpd_open:  vpd (pa) for leaf stomata fully openness
+ 4100               // vpd_close: vpd (pa) for leaf stomata fully closure
+ 75                 // ppfd50::
+ 0.0                // initvegwater: initial intercepted rain water in canopy
+ 0.0                // initvegsnow: initial intercepted snow water in canopy
+ // ground(snow-soil) (bio)physical properties and parameters
+ 0.8                // snwalbmax:
+ 0.4                // snwalbmin:
+ -1.5e5             // psimax:
+ 0.08               // evapmin:
+ 0.04               // drainmax:
+ 0.20               // rtdp4gdd:
+ -1.0               // initsnwtem: initial snow temperature (oC)
+ -1.0               // initts(0): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(1): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(2): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(3): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(4): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(5): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(6): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(7): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(8): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(9): initial soil temperature at 10 cm interval (oC)
+ 0.10               // initvwc(0): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(1): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(2): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(3): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(4): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(5): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(6): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(7): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(8): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(9): initial soil volume water content at every 10 cm interval
+//===========================================================
+CMT21 // Lowland (Floodplain) White Spruce Forest Ecosystem - (1 veg community over 1 soil column)
+// (Biophysical) plant leaf characteristics and parameters
+ 0.10               // albvisnir: canopy albedo
+ 0.50               // er: light extinction coefficient
+ 0.041              // ircoef: rainfall interception 
+ 0.041              // iscoef: snow interception
+ 0.003              // glmax: max. canopy conductance (m/s)
+ 0.08               // gl_bl: boundary layer conductance
+ 0.00001            // gl_c:  cuticular conductance
+ 930                // vpd_open:  vpd (pa) for leaf stomata fully openness
+ 4100               // vpd_close: vpd (pa) for leaf stomata fully closure
+ 75                 // ppfd50::
+ 0.0                // initvegwater: initial intercepted rain water in canopy
+ 0.0                // initvegsnow: initial intercepted snow water in canopy
+ // ground(snow-soil) (bio)physical properties and parameters
+ 0.8                // snwalbmax:
+ 0.4                // snwalbmin:
+ -1.5e5             // psimax:
+ 0.08               // evapmin:
+ 0.00               // drainmax:
+ 0.20               // rtdp4gdd:
+ -1.0               // initsnwtem: initial snow temperature (oC)
+ -1.0               // initts(0): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(1): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(2): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(3): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(4): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(5): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(6): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(7): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(8): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(9): initial soil temperature at 10 cm interval (oC)
+ 0.10               // initvwc(0): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(1): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(2): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(3): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(4): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(5): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(6): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(7): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(8): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(9): initial soil volume water content at every 10 cm interval
+//===========================================================
+CMT30 // Upland Black Spruce Forest Ecosystem - (1 veg community over 1 soil column)
+// (Biophysical) plant leaf characteristics and parameters
+ 0.10               // albvisnir: canopy albedo
+ 0.50               // er: light extinction coefficient
+ 0.041              // ircoef: rainfall interception 
+ 0.041              // iscoef: snow interception
+ 0.003              // glmax: max. canopy conductance (m/s)
+ 0.08               // gl_bl: boundary layer conductance
+ 0.00001            // gl_c:  cuticular conductance
+ 930                // vpd_open:  vpd (pa) for leaf stomata fully openness
+ 4100               // vpd_close: vpd (pa) for leaf stomata fully closure
+ 75                 // ppfd50::
+ 0.0                // initvegwater: initial intercepted rain water in canopy
+ 0.0                // initvegsnow: initial intercepted snow water in canopy
+ // ground(snow-soil) (bio)physical properties and parameters
+ 0.8                // snwalbmax:
+ 0.4                // snwalbmin:
+ -1.5e7             // psimax:
+ 0.08               // evapmin:
+ 0.04               // drainmax:
+ 0.20               // rtdp4gdd:
+ -1.0               // initsnwtem: initial snow temperature (oC)
+ -1.0               // initts(0): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(1): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(2): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(3): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(4): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(5): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(6): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(7): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(8): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(9): initial soil temperature at 10 cm interval (oC)
+ 0.10               // initvwc(0): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(1): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(2): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(3): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(4): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(5): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(6): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(7): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(8): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(9): initial soil volume water content at every 10 cm interval
+//===========================================================
+CMT31 // Lowland Black Spruce Forest Ecosystem - (1 veg community over 1 soil column)
+// (Biophysical) plant leaf characteristics and parameters
+ 0.10               // albvisnir: canopy albedo
+ 0.50               // er: light extinction coefficient
+ 0.041              // ircoef: rainfall interception 
+ 0.041              // iscoef: snow interception
+ 0.003              // glmax: max. canopy conductance (m/s)
+ 0.08               // gl_bl: boundary layer conductance
+ 0.00001            // gl_c:  cuticular conductance
+ 930                // vpd_open:  vpd (pa) for leaf stomata fully openness
+ 4100               // vpd_close: vpd (pa) for leaf stomata fully closure
+ 75                 // ppfd50::
+ 0.0                // initvegwater: initial intercepted rain water in canopy
+ 0.0                // initvegsnow: initial intercepted snow water in canopy
+ // ground(snow-soil) (bio)physical properties and parameters
+ 0.8                // snwalbmax:
+ 0.4                // snwalbmin:
+ -1.5e7             // psimax:
+ 0.08               // evapmin:
+ 0.00               // drainmax:
+ 0.20               // rtdp4gdd:
+ -1.0               // initsnwtem: initial snow temperature (oC)
+ -1.0               // initts(0): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(1): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(2): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(3): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(4): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(5): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(6): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(7): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(8): initial soil temperature at 10 cm interval (oC)
+ -1.0               // initts(9): initial soil temperature at 10 cm interval (oC)
+ 0.10               // initvwc(0): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(1): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(2): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(3): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(4): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(5): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(6): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(7): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(8): initial soil volume water content at every 10 cm interval
+ 0.10               // initvwc(9): initial soil volume water content at every 10 cm interval
