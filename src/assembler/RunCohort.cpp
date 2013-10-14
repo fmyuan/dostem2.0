@@ -236,7 +236,7 @@ void RunCohort::run_cohortly(){
 		    if (cht.gd->fri>0) {
 		    	int nfri = max(MIN_EQ_YR/cht.gd->fri, 20);
 		    	nfri   = min(nfri, MAX_EQ_YR/cht.gd->fri); //20 FRI and within range of min. and max. MAX_EQ_YR
-		    	yrend  = 10; //nfri*cht.gd->fri-1;   // ending just prior to the fire occurrency year
+		    	yrend  = nfri*cht.gd->fri-1;   // ending just prior to the fire occurrency year
 		    } else {
 		    	yrend = MAX_EQ_YR;
 		    }
